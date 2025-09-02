@@ -382,6 +382,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
+# UFFD GC
+PRODUCT_ENABLE_UFFD_GC := true
+
 # Updater
 AB_OTA_UPDATER := false
 
