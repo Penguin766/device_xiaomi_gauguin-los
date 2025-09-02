@@ -143,6 +143,9 @@ persist.vendor.dpmhalservice.enable=1
 # DRM
 drm.service.enabled=true
 
+# eBPF
+ro.bpf.kver_override=5.4.186
+
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
